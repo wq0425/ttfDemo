@@ -1,0 +1,27 @@
+<template>
+	<view>
+		<!-- <button @tap="listBtn">视频</button> -->
+		<view>我是：video-list.nvue3，字体正常</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			listBtn() {
+				uni.navigateTo({
+					url: `/components/video`
+				});
+			}
+		}
+	}
+</script>
+
+<style>
+
+</style>
